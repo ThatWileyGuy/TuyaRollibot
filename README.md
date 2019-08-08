@@ -1,3 +1,7 @@
+## Credit
+
+The Tuya REST interface was basically forked from https://github.com/sean6541/tuyaapi . I modified it to do phone logon and stripped out a lot of client metadata that Tuya doesn't seem to require, but the original structure and all the crypto comes from there.
+
 ## Configuration
 
 You need to write a config file (I'll call it config.cfg). It needs to look like this:
