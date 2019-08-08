@@ -25,6 +25,7 @@ Password = aaaaaaaaaa # Tuya/Rollibot password
 Once you have your config (config.cfg for example purposes)...
 
 `./localkeys.py config.cfg` will print the local keys for all your devices
+
 `./thermostat.py config.cfg "Office AC" 72` will run a basic thermostat state machine to keep the Office AC (this is the name that shows up in the Rollibot app) close to 72 degrees.
 
 
